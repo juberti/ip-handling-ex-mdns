@@ -126,11 +126,22 @@ The exact impact on applications needs to be determined experimentally. This
 document will be updated with a specific recommendation once this information
 is known.
 
+Additional Applications
+=======================
+
+The mDNS technique may also have value even when all network interfaces are
+used by the ICE agent, i.e., in Mode 1 from {{IPHandling}}, by
+minimizing the amount of information regarding the local network that is
+disclosed to the remote peer. Accordingly, a future update of this document
+may define additional modes that apply the mDNS technique to Mode 1.
+This is an area for further study.
+
 Security Considerations
 =======================
 
-The modes here have no associated security considerations. Considerations for
-the mDNS technique are listed in {{mDNSCandidates}}, Section 6.
+The modes defined here, on their own, present no new security considerations.
+Considerations for the mDNS technique are detailed in {{mDNSCandidates}},
+Section 6.
 
 IANA Considerations
 ===================

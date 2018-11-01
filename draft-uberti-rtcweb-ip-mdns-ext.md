@@ -35,9 +35,11 @@ author:
     organization: Apple Inc.
     email: youenn@apple.com
 
-informative:
+normative:
   RFC2119:
   RFC4941:
+
+informative:
   IPHandling:
     target: https://tools.ietf.org/html/draft-ietf-rtcweb-ip-handling
     title:  WebRTC IP Address Handling Requirements

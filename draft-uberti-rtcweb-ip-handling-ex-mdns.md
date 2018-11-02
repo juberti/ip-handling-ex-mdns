@@ -1,8 +1,8 @@
 ---
 title: WebRTC IP Address Handling Extensions for Multicast DNS
-abbrev: ip-mdns-ext
-docname: draft-uberti-ip-mdns-ext-00
-date: 2018-10-27
+abbrev: ip-handling-ex-mdns
+docname: draft-uberti-ip-handling-ex-mdns-00
+date: 2018-11-02
 category: info
 
 ipr: trust200902
